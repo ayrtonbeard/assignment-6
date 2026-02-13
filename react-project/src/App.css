@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.thumbnail {
+  height: 18vh;
+  width: 28vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(34, 31, 31);
+  overflow-x: scroll;
+  position: absolute;
+  align-items: center;
+  left: 35.5vw;
+  gap: 5px;
+  top: 5vh;
+  color-scheme: dark;
+  border-radius: 10px;
+}
+
+.thumbnail-image {
+  height: 15vh;
+}
+
+.thumbnail-image:hover {
+  cursor: pointer;
+}
+.large-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.large-image-container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
